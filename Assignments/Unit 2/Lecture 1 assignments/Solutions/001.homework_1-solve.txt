@@ -1,0 +1,96 @@
+
+EX1:
+
+
+
+
+
+
+
+
+
+EX2:
+
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("Enter a integer: ");  
+    scanf("%d",&num);  /* Storing a integer entered by user in variable num */
+    printf("You entered: %d",num);
+    return 0;
+}
+
+
+
+EX3:
+
+
+/*C programming source code to add and display the sum of two integers entered by user */
+
+#include <stdio.h>
+int main( )
+{
+    int num1, num2, sum;
+    printf("Enter two integers: ");
+    scanf("%d %d",&num1,&num2); /* Stores the two integer entered by user in variable num1 and num2 */
+
+    sum=num1+num2;      /* Performs addition and stores it in variable sum */
+    printf("Sum: %d",sum);  /* Displays sum */
+    return 0;
+}
+
+
+
+EX4:
+
+/*C program to multiply and display the product of two floating point numbers entered by user. */
+
+#include <stdio.h>
+int main( )
+{
+    float num1, num2, product;
+    printf("Enter two numbers: ");
+    scanf("%f %f",&num1,&num2);        /* Stores the two floating point numbers entered by user in variable num1 and num2 respectively */
+    product = num1*num2;  /* Performs multiplication and stores it */
+    printf("Product: %f",product);
+    return 0;
+}
+
+
+EX5:
+
+/* Source code to find ASCII value of a character entered by user */
+
+#include <stdio.h>
+int main(){
+    char c;
+    printf("Enter a character: ");
+    scanf("%c",&c);        /* Takes a character from user */
+    printf("ASCII value of %c = %d",c,c);
+    return 0;
+}
+
+
+
+EX6:
+
+#include <stdio.h>
+int main(){
+      float a, b, temp;
+      printf("Enter value of a: ");
+      scanf("%f",&a);
+      printf("Enter value of b: ");
+      scanf("%f",&b);
+      temp = a;    /* Value of a is stored in variable temp */
+      a = b;       /* Value of b is stored in variable a */
+      b = temp;    /* Value of temp(which contains initial value of a) is stored in variable b*/
+      printf("\nAfter swapping, value of a = %.2f\n", a);
+      printf("After swapping, value of b = %.2f", b);
+      return 0;
+}
+
+
+EX7:
+it is an interview trick
+
