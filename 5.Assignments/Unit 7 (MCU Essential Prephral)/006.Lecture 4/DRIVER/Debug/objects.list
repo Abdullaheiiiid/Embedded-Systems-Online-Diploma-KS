@@ -1,0 +1,8 @@
+"EXTI/EXTI.o"
+"GPIO/GPIO.o"
+"KEYPAD/KEYPAD.o"
+"LCD/LCD.o"
+"Src/main.o"
+"Src/syscalls.o"
+"Src/sysmem.o"
+"Startup/startup_stm32f103c6tx.o"

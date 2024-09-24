@@ -1,0 +1,2 @@
+KEYPAD.c:14:6:KPD_Init	16	static
+KEYPAD.c:23:7:KPD_Get_Key	24	static
